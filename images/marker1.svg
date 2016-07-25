@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="317px" height="68px" viewBox="0 0 317 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="158.248711 0 182.497423 14 182.497423 42 158.248711 56 134 42 134 14"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-443.000000, -1432.000000)">
+            <g id="Group" transform="translate(443.000000, 1438.000000)">
+                <g id="Polygon-1">
+                    <use stroke="#000000" stroke-width="10" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" stroke-width="2" xlink:href="#path-1"></use>
+                </g>
+                <path d="M151.426758,18.5947266 L153.682617,16.3217773 L162.757324,16.3217773 L162.757324,33.4287109 L155.203613,33.4287109 L155.203613,20.8505859 L151.426758,20.8505859 L151.426758,18.5947266 Z M151.426758,34.4711914 L166.53418,34.4711914 L166.53418,39 L151.426758,39 L151.426758,34.4711914 Z" id="1" fill="#FFFFFF"></path>
+                <polygon id="Page-1" fill="#000000" points="313.42665 34 226.662626 34.0598707 211.225913 34.0817193 204 45.0922558 219.454589 45.0428837 223.283478 39.2087522 316.71812 39.147179"></polygon>
+                <polygon id="Page-1-Copy-3" fill="#000000" transform="translate(56.359060, 39.546128) scale(-1, 1) translate(-56.359060, -39.546128) " points="109.42665 34 22.6626261 34.0598707 7.22591288 34.0817193 5.68434189e-14 45.0922558 15.4545893 45.0428837 19.2834776 39.2087522 112.71812 39.147179"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,459 @@
+body {
+	background-image: url(../images/hexTile.svg);
+	background-repeat: repeat;
+	background-size: 110px;
+	background-color: #0f122e;
+}
+
+main {
+	box-shadow: 0 0 125px 0 rgba(0,0,0,0.9);
+	height: 100%;
+	margin: 0 auto;
+	width: 1030px;
+	z-index: 1;
+}
+
+header {
+	box-shadow: 0 3px 5px rgba(0,0,0,0.3);	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6d6d6+0,a5a5a5+100 */
+	background: #d6d6d6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d6d6d6 0%, #a5a5a5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #d6d6d6 0%,#a5a5a5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #d6d6d6 0%,#a5a5a5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#a5a5a5',GradientType=0 ); /* IE6-9 */
+	height: 50px;
+	position: relative;
+	width: 100%;	
+}
+
+h3 {
+	font-family: 'Teko', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: right;
+	padding: 15px;
+}
+
+#logo {
+	background-image: url(../images/slant.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	width: 150px;
+	height: 50px;
+	padding: 10px 5px 0px 15px;
+}
+
+#logo img {
+	height: 85%;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 34px;
+	margin-top: 20px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-size: 45px;
+	font-weight: 500;
+	margin: 10px 0 10px 0;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+aside {
+	float: right;
+	margin: 0 0 0 25px;
+	width: calc(33.3% - 15px);
+	height: 100%;
+}
+
+footer {
+	background-color: #001E49;
+	border-radius: 20px 20px 0 0;
+	height: 100px;
+	padding: 25px;
+	margin-top: 25px;
+}
+
+footer > img:first-child {
+	box-sizing: padding-box;
+	padding-right: 15px;
+}
+
+footer > img:nth-child(2) {
+	box-sizing: padding-box;
+	padding: 10px 10px 10px 15px;
+	border-left: 1px solid white;
+	margin-left: 5px; 
+}
+
+#footerText {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 17px;
+	text-align: right;
+	margin: 0;
+	float: right;
+}
+
+#hero {
+	background-image: url(../images/mainArtwork3.jpg);
+	background-size: cover;
+	padding: 21% 40px 21% 40px;
+	width: 100%;
+}
+
+.flipInX {
+	margin: 0 auto 5px auto;
+	display: block;
+	width: 15%;
+	animation-fill-mode: forwards;
+	animation-duration: 1.5s;
+	animation-delay: 2s;
+	opacity: 0;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	-webkit-animation-name: flipInX;
+	animation-name: flipInX;
+}
+
+@keyframes flipInX {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    opacity: 1;
+  }
+}
+
+#wrapper {
+	background-color: white;
+	padding: 25px 50px 0 50px;
+	width: 100%;
+}
+
+#intro {
+	background-color: #001E49;
+	box-shadow: 7px 7px #A6A6A6;
+	color: white;
+	float: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 36px;
+	margin: 0 0 25px 0;
+	padding: 25px;
+	position: relative;
+	width: calc(66.6% - 15px);
+}
+
+#intro:first-child:first-letter { 
+	text-shadow: 4px 4px #CF0A2C;
+	color: white;
+	float: left;
+	font-family: 'Black Ops One', cursive;
+	font-size: 82px;
+	line-height: 56px;
+	padding-top: 15px;
+	padding-right: 8px;
+}
+
+#profile {
+	background-color: #ECECEC;
+	color: #001E49;
+	font-family: 'Teko', sans-serif;
+	font-size: 26px;
+	font-weight: 300;
+	height: 60%;
+	line-height: 32px;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+#profile img {
+	margin-bottom: 15px;
+}
+
+#profile b {
+	font-weight: 500;
+}
+
+#driverStats {
+	background-color: #001E49;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	height: 25%;
+	line-height: 35px;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+#driverStats b {
+	color: #CF0A2C;
+}
+
+#socialMedia {
+	background-color: #CF0A2C;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 15px 5px 15px;
+	height: 15%;
+}
+
+.gallery {
+	margin-top: 35px;
+}
+
+.marker {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	margin: 40px auto 10px auto;
+}
+
+.pullQuote {
+	font-family: 'Black Ops One', cursive;
+	font-size: 28px;
+	line-height: 35px;
+	margin: 25px 0 25px 0;
+	padding: 0 20px 0 20px;
+	text-align: center;
+}
+
+.pullQuote span {
+	color: #CF0A2C;
+}
+
+#compare {
+	float: left;
+	margin: 0 25px 25px 0;
+	width: calc(33.3% - 15px);
+	height: 100%;
+	z-index: 2;
+}
+
+#compare img {
+	display: block;
+	margin: 20px auto 20px auto;
+}
+
+.maxCompare {
+	background-image: url(../images/maxBg.jpg);
+	background-size: cover;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	height: 50%;
+	line-height: 35px;
+	padding: 25px 0 60px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.carlosCompare {
+	background-image: url(../images/carlosBg.jpg);
+	background-size: cover;
+	display: flex;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	justify-content: center;
+	height: 50%;
+	line-height: 35px;
+	padding: 60px 0 25px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.danCompare {
+	background-image: url(../images/danBg.jpg);
+	background-size: cover;
+	display: flex;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	justify-content: center;
+	height: 50%;
+	line-height: 35px;
+	padding: 60px 0 25px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.alignBottom {
+	align-self: flex-end;
+}
+
+.maxCompare b, .carlosCompare b, .danCompare b {
+	font-weight: 500;
+}
+
+.v {
+	color: white;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+	font-family: 'Black Ops One', cursive;
+	font-size: 130px;
+	line-height: 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#maxBw {
+	background-image: url(../images/maxBw.jpg);
+	background-size: cover;
+	margin: 35px 0 50px 0;
+	width: 100%;
+	padding: 25% 20px 25% 20px;
+}
+
+.aniText {
+	animation-name: fadeIn;
+	animation-fill-mode: forwards;
+	animation-duration: 1.5s;
+	animation-delay: 2.5s;
+	color: white;
+	font-family: 'Black Ops One', sans-serif;
+	font-size: 45px;
+	letter-spacing: 25px;
+	line-height: 45px;
+	position: relative;
+	opacity: 0;
+	text-align: center;
+	text-shadow: 0 0 20px black;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+
+}
+
+
+/*RESPONSIVE CODE*/
+@media only screen and (max-width: 980px) {
+	aside, #compare {
+		display: none;
+	}
+
+	#wrapper {
+		padding: 25px 25px 0 25px;
+	}
+
+	#intro {
+		width: 100%;
+	}
+
+	main {
+		width: 100%;	
+	}
+
+
+}
+/*PHONE*/
+@media only screen and (max-width: 435px) {
+	aside {
+		display: none;
+	}
+
+	p {
+		font-size: 17px;
+	}
+
+	main {
+		width: 100%;	
+	}
+
+	#wrapper {
+		padding: 25px 25px 0 25px;
+	}
+
+	#intro {
+		width: 100%;
+		font-size: 17px;
+	}
+
+	.marker img {
+		width: 90%;
+	}
+
+	.pullQuote {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.aniText {
+		font-size: 20px;
+		line-height: 20px;
+		letter-spacing: 10px;
+
+	}
+
+	footer > a {
+		display: none;
+	}
+
+	footer > img:nth-child(2) {
+		box-sizing: padding-box;
+		padding: 10px 0 0 0;
+		border-left: none;
+		float: left;
+	}
+
+	#footerText {
+	font-size: 10px;
+
+	}
+}
+
+
